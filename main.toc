@@ -1,0 +1,120 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.2}%
+\contentsline {chapter}{Abstract}{iii}{chapter*.3}%
+\contentsline {chapter}{Contents}{vi}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{xi}{chapter*.5}%
+\contentsline {chapter}{Publications Based on this Thesis}{xiii}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Prior works on Odd Arm Identification}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problem Setup and Objective}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Our Contributions}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Organisation of the Thesis}{5}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Rested Arms}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Preamble}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Prior Works on Rested Arms}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}An Overview of Our Contributions}{10}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Chapter Organisation}{11}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Notations}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Converse: Lower Bound}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Achievability}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The Modified GLR Test Statistic}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The Policy $\pi ^\star (L,\delta )$}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Performance of $\pi ^\star (L,\delta )$}{23}{subsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.1}Strictly Positive Drift of the Modified GLR Test Statistic}{23}{subsubsection.2.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.4.3.2}Error Probability of Policy $\pi ^\star (L,\delta )$}{25}{subsubsection.2.4.3.2}%
+\contentsline {subsubsection}{\numberline {2.4.3.3}Upper Bound on the Expected Stopping Time of Policy $\pi ^\star (L,\delta )$}{25}{subsubsection.2.4.3.3}%
+\contentsline {section}{\numberline {2.5}The Main Result}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Simulation Results}{27}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Proofs}{28}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Proof of Proposition \ref {rested_arms_prop:lower_bound}}{28}{subsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.1}A Lower Bound on The Expected Value of $Z_{hh'}(\tau )$}{33}{subsubsection.2.7.1.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.2}A Relation Between $E^\pi [Z_{hh'}(\tau )|C]$ and $E^\pi [\tau |C]$}{34}{subsubsection.2.7.1.2}%
+\contentsline {subsubsection}{\numberline {2.7.1.3}Asymptotics of Vanishing Error Probability}{35}{subsubsection.2.7.1.3}%
+\contentsline {subsubsection}{\numberline {2.7.1.4}The Final Steps}{38}{subsubsection.2.7.1.4}%
+\contentsline {subsection}{\numberline {2.7.2}Proof of Proposition \ref {rested_arms_prop:positive_drift_of_M_{hh'}(n)}}{39}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Proof of Proposition \ref {rested_arms_prop:pi_{LRMB}(L,delta)_belongs_to_Pi(epsilon)}}{46}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Proof of Proposition \ref {rested_arms_prop:lim_M_h(n)/n_correct_drift}}{47}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Proof of Proposition \ref {rested_arms_prop:upper_bound}}{50}{subsection.2.7.5}%
+\contentsline {section}{\numberline {2.8}Summary}{62}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Restless Arms with Known TPMs}{64}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Preamble}{64}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Motivation and the Notion of a Trembling Hand}{65}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Prior Works on Restless Arms}{65}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}A Brief Overview of Our Contributions}{66}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Chapter Organisation}{69}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Notations and Preliminaries}{70}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Policy}{71}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Delays and Last Observed States}{71}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Controlled Markov Process and the Resulting Markov Decision Problem}{72}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Preliminaries on MDPs}{74}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Converse: Lower Bound}{75}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Our `Lift' Approach}{77}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Achievability}{77}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Performance of Policy $\pi _1^\star (L,\delta )$}{80}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Main Result}{82}{section.3.6}%
+\contentsline {section}{\numberline {3.7}The Case $\eta =0$}{83}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}A Key Monotonicity Property}{84}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}IID Observations From The Arms}{85}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Rested Markov Arms}{87}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}A Subtle Remark on the Interpretation of $R_0^*(P_1, P_2)$}{90}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Proofs}{91}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Proof of Lemma \ref {restless_with_known_lem:pi_delta^lambda_is_an_SSRS}}{91}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Proof of Proposition \ref {restless_with_known_prop:lower_bound}}{94}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}A Lower Bound on $E_h[Z_{hh'}(\tau (\pi ))]$ for $\pi \in \Pi (\epsilon )$}{94}{subsubsection.3.8.2.1}%
+\contentsline {subsubsection}{\numberline {3.8.2.2}An Upper Bound for $E_h[Z_{hh'}(\tau (\pi ))]$ in Terms of $ E_h[\tau (\pi )]$}{98}{subsubsection.3.8.2.2}%
+\contentsline {subsection}{\numberline {3.8.3}Proof of Lemma \ref {restless_with_known_lem:liminf_Z_{hh'}(n)_strictly_positive}}{102}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Proof of Lemma \ref {restless_with_known_lem:pi_star(L)_in_Pi(epsilon)}}{106}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5}Proof of Proposition \ref {restless_with_known_prop:upper_bound}}{108}{subsection.3.8.5}%
+\contentsline {subsection}{\numberline {3.8.6}An Exponential Upper Bound for $P_h(M_h(n)<\qopname \relax o{log}((K-1)L))$}{113}{subsection.3.8.6}%
+\contentsline {section}{\numberline {3.9}Appendix}{123}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}An Infinite-Dimensional Linear Programming Problem}{123}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Restriction to SRS Class Suffices}{126}{subsection.3.9.2}%
+\contentsline {section}{\numberline {3.10}Summary}{127}{section.3.10}%
+\contentsline {chapter}{\numberline {4}Restless Arms with TPMs Unknown}{130}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preamble}{130}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Certainty Equivalence and Identifiability}{131}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Prior Works on Certainty Equivalence, Identification, and Adaptive Control of Markov Processes}{132}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}A Brief Overview of Our Contributions}{132}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Chapter Organisation}{135}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Notations and Preliminaries}{135}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Arm Delays and Last Observed States}{137}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Controlled Markov Process and the Associated Markov Decision Problem}{138}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}SRS Policies and State-Action Occupancy Measures}{139}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Converse: Lower Bound}{139}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Simplifying $R^*(h, P_1, P_2)$}{140}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Near-Optimal Solutions to the Supremum}{141}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Achievability}{142}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Two Key Assumptions}{142}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Test Statistic}{144}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Policy Based on Certainty Equivalence}{148}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Results on the Performance of the Policy}{149}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Main Result}{154}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Proofs}{156}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Proof of Proposition \ref {prop:lower_bound}}{156}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}A Lower Bound on $E^\pi [Z^\pi _{CC'}(\tau (\pi ))|C]$ for $\pi \in \Pi (\epsilon )$}{156}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}An Upper Bound for $E^\pi [Z^\pi _{CC'}(\tau (\pi ))|C]$ in Terms of $ E^\pi [\tau (\pi )|C]$}{161}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Proof of Proposition \ref {prop:convergence_of_ML_estimates}}{166}{subsection.4.6.4}%
+\contentsline {subsubsection}{\numberline {4.6.4.1}Case 1: $C=(h, P_1, P_2)$, $C'=(h', P_1, P_2)$, where $h'\neq h$}{169}{subsubsection.4.6.4.1}%
+\contentsline {subsubsection}{\numberline {4.6.4.2}Case 2: $C=(h, P_1, P_2)$, $C'=(h, P_1', P_2)$, where $P_1\neq P_1'$}{170}{subsubsection.4.6.4.2}%
+\contentsline {subsubsection}{\numberline {4.6.4.3}Case 3: $C=(h, P_1, P_2)$, $C'=(h, P_1, P_2')$, where $P_2\neq P_2'$}{170}{subsubsection.4.6.4.3}%
+\contentsline {subsubsection}{\numberline {4.6.4.4}Case 4: $C=(h, P_1, P_2)$, $C'=(h', P_1', P_2)$, where $h'\neq h$, $P_1\neq P_1'$}{170}{subsubsection.4.6.4.4}%
+\contentsline {subsubsection}{\numberline {4.6.4.5}Case 5: $C=(h, P_1, P_2)$, $C'=(h', P_1, P_2')$, where $h'\neq h$, $P_2\neq P_2'$}{170}{subsubsection.4.6.4.5}%
+\contentsline {subsubsection}{\numberline {4.6.4.6}Case 6: $C=(h, P_1, P_2)$, $C'=(h, P_1', P_2')$, where $P_1\neq P_1'$, $P_2\neq P_2'$}{171}{subsubsection.4.6.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.4.7}Case 7: $C=(h, P_1, P_2)$, $C'=(h', P_1', P_2')$, where $h'\neq h$, $P_1\neq P_1'$, $P_2\neq P_2'$}{171}{subsubsection.4.6.4.7}%
+\contentsline {subsection}{\numberline {4.6.5}Proof of Proposition \ref {prop:strict_positivity_of_drift_of_test_statistic}}{172}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Proof of Proposition \ref {prop:policy_satisfies_desried_error_probability}}{177}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}Proof of Proposition \ref {prop:test_statistic_has_the_correct_drift}}{179}{subsection.4.6.7}%
+\contentsline {subsection}{\numberline {4.6.8}Proof of Proposition \ref {prop:stopping_time_of_policy_blows_up_as_L_increases}}{182}{subsection.4.6.8}%
+\contentsline {subsubsection}{\numberline {4.6.8.1}Case $\tilde {h}=h$}{184}{subsubsection.4.6.8.1}%
+\contentsline {subsubsection}{\numberline {4.6.8.2}Case $\tilde {h} \neq h$}{186}{subsubsection.4.6.8.2}%
+\contentsline {subsection}{\numberline {4.6.9}Proof of Proposition \ref {prop:upper_bound}}{187}{subsection.4.6.9}%
+\contentsline {subsubsection}{\numberline {4.6.9.1}Showing that $P^\pi (M_h(n)<\qopname \relax o{log}((K-1)L)|C)$ is $O(1/n^3)$}{187}{subsubsection.4.6.9.1}%
+\contentsline {subsubsection}{\numberline {4.6.9.2}Handling $U_1(n)$}{191}{subsubsection.4.6.9.2}%
+\contentsline {subsubsection}{\numberline {4.6.9.3}Handling $U_2(n)$}{191}{subsubsection.4.6.9.3}%
+\contentsline {subsubsection}{\numberline {4.6.9.4}Handling $U_3(n)$}{193}{subsubsection.4.6.9.4}%
+\contentsline {subsubsection}{\numberline {4.6.9.5}Handling $U_4(n)$}{194}{subsubsection.4.6.9.5}%
+\contentsline {subsubsection}{\numberline {4.6.9.6}Completing the Proof of Proposition \ref {prop:upper_bound}}{200}{subsubsection.4.6.9.6}%
+\contentsline {section}{\numberline {4.7}Summary}{201}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Directions}{205}{chapter.5}%
+\contentsline {chapter}{Bibliography}{210}{chapter*.9}%

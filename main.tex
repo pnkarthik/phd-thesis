@@ -1,0 +1,339 @@
+%input macros (i.e. write your own macros file called MacroFile1.tex)
+%\include{Macros/MacroFile1}
+\documentclass[oneside,12pt]{IIScthesisPSnPDF}
+
+
+
+% \pagestyle{bfheadings}
+%\usepackage{psfig}
+% \usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[numbers]{natbib}
+\usepackage{wrapfig}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{enumerate}
+%\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+% \usepackage{sfgame}
+\usepackage{color}
+\usepackage[compact]{titlesec}
+\usepackage{mdwlist}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usepackage[vertfit]{breakurl}
+\usepackage{datetime}
+\usepackage{pdfpages}
+\usepackage{dsfont}
+% *** SUBFIGURE PACKAGES ***
+\usepackage{subfig}
+% \usepackage{biblatex}
+\usetikzlibrary{shapes,arrows, trees}
+\newtheorem{cons}{Constraint}
+
+% ########### newly added
+%\usepackage[showframe=true]{geometry}
+\usepackage{changepage}
+% wide page for side by side figures, tables, etc
+\newlength{\offsetpage}
+\setlength{\offsetpage}{2cm}
+
+\newenvironment{widepage}{\begin{adjustwidth}{-\offsetpage}{-\offsetpage}%
+    \addtolength{\textwidth}{2\offsetpage}}%
+{\end{adjustwidth}}
+%\usepackage[T1]{fontenc}
+
+%\usepackage{polski}
+%\usepackage[utf8]{inputenc}
+%\usepackage[french,polutonikogreek,polish]{babel}
+
+% *** MATH PACKAGES ***
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+\usepackage{cleveref}
+
+\usepackage{textcomp}
+\usepackage{xspace}
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  mathescape
+}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage[ruled]{algorithm}
+\usepackage{theoremref}
+\definecolor{light-gray}{gray}{0.75}
+\algrenewcommand{\algorithmiccomment}[1]{\hskip3em{{\footnotesize \textcolor{light-gray}{$\blacktriangleright$}}} #1}
+% define repetitive complex fragments here
+\newcommand{\floe}{$\mathcal{F}{\ell}{o}{\varepsilon}$\xspace}
+\newcommand{\dij}{\emph{Dijkstra's}\xspace}
+\newcommand{\prc}{\mathcal{P}}
+\newcommand{\chn}{\mathcal{C}}
+
+\newcommand{\ystrim}[1]{}
+\newtheorem{prop}{Proposition}
+\newtheorem{conj}{Conjecture} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{remark}{Remark}
+\newtheorem{assumption}{Assumption}
+\newcommand\floor[1]{\lfloor#1\rfloor}
+%\newcommand\ceil[1]{\lceil#1\rceil}
+
+
+%\usepackage[svgnames, x11names]{xcolor}
+\newcommand{\ysnote}[1]{ {\textcolor{magenta} { ***Yogesh: #1 }}}
+
+%\newcommand{\ysnoted}[1]{ {\textcolor{green} { ***TODO Later: #1 }}} %% COMMENT FOR FINAL THESIS VERSION
+\newcommand{\ysnoted}[1]{} %% UNCOMMENT FOR FINAL THESIS VERSION
+
+\newcommand{\scnote}[1]{ {\textcolor{orange} { ***Shayal: #1 }}}
+
+\newcommand{\Note}[1]{ {\textcolor{red} {#1}}}
+
+\newcommand{\csurnote}[1]{}
+
+% Change tracking for article revisions. Added, Deleted, Replaced, or Modified content.
+%
+\usepackage[normalem]{ulem} % required for strikeout font
+
+
+\newcommand{\modc}[1]{{\textcolor{blue}{#1}}}
+\newcommand{\addc}[1]{{\textcolor{teal}{#1}}}
+\newcommand{\delc}[1]{ {\textcolor{gray} {\sout{#1}} }}
+%\newcommand{\delc}[1]{} % uncomment this (and comment above line) to ignore showing deletion
+\newcommand{\repc}[2]{ {\textcolor{gray} {\sout{#1}} }{\textcolor{teal} {#2}}}
+%\newcommand{\repc}[2]{{\textcolor{teal}{#2}}} % uncomment this (and comment above line) to ignore showing deletion
+%\newcommand{\addc}[1]{#1}
+%
+%---------------------------------------------------------
+
+%\input{preamble}
+
+% \newcommand{\nobibentry}[1]{{\let\nocite\ignore\bibentry{#1}}}
+\newdateformat{monthyeardate}{ \monthname[\THEMONTH], \THEYEAR}
+\newcommand{\sn}[1]  {\noindent \textcolor{blue}{{\bf SN: }{``{\em #1}''}}}
+\newcommand{\blankpage}{
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+}
+
+\newcommand{\blankpagewithnumber}{
+\newpage
+% \thispagestyle{empty}
+\mbox{}
+\newpage
+}
+
+\crefname{observation}{observation}{observations}
+\crefname{algorithm}{algorithm}{algorithms}
+\crefname{align}{equation}{equations}
+\crefname{eqnarray}{equation}{equations}
+
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+% Put all the style files you want in the directory StyleFiles and usepackage like this:
+% \usepackage{StyleFiles/watermark}
+
+% Comment out the next line to get single spacing
+\onehalfspacing
+\allowdisplaybreaks
+%\usepackage{fontspec}
+%\newfontfamily\kannadafont{Noto Sans Kannada}
+%\usepackage{polyglossia}
+%\setmainlanguage{kannada}
+
+\begin{document}
+
+\title{Sequential Controlled Sensing to Detect \\ an Anomalous Process
+} 
+
+\submitdate{\monthyeardate\today} 
+%\me
+\phd
+%\mscengg
+%\degree{Master of Science (Engineering)} 
+\dept{Electrical Communication Engineering}
+\faculty{Faculty of Engineering}
+\author{Karthik Periyapattana Narayanaprasad}
+
+% Using the watermark package which is in StyleFiles/
+% and to remove DRAFT COPY ONLY appearing on the top of all pages comment out below line
+%\watermark{DRAFT COPY ONLY}
+
+
+\maketitle
+
+
+%\begin{center}
+%\LARGE{\underline{\textbf{Declaration of Originality}}}
+%\end{center}
+%\noindent I, \textbf{Karthik Periyapattana Narayanaprasad}, with SR No. \textbf{04-02-00-10-12-15-1-12538}, hereby declare that
+%the material presented in the thesis titled
+%
+%\begin{center}
+%\textbf{Sequential Controlled Sensing to Detect an Anomalous Process
+%}
+%\end{center}
+%
+%\noindent represents original work carried out by me in the \textbf{Department of Electrical Communication Engineering} at \textbf{Indian Institute of
+%Science} during the years \textbf{2015-2021}.
+%
+%\noindent With my signature, I certify that:
+%\begin{itemize}
+%	\item I have not manipulated any of the data or results.
+%	\item I have not committed any plagiarism of intellectual
+%	property.
+%	I have clearly indicated and referenced the contributions of
+%	others.
+%	\item I have explicitly acknowledged all collaborative research
+%	and discussions.
+%	\item I have understood that any false claim will result in severe
+%	disciplinary action.
+%	\item I have understood that the work may be screened for any form
+%	of academic misconduct.
+%\end{itemize}
+%
+%\vspace{20mm}
+%
+%\noindent {\footnotesize{Date: \today	\hfill	Student Signature}} \qquad
+%
+%\vspace{20mm}
+%
+%\noindent In my capacity as supervisor of the above-mentioned work, I certify
+%that the above statements are true to the best of my knowledge, and 
+%I have carried out due diligence to ensure the originality of the
+%report.
+%
+%\vspace{20mm}
+%
+%\noindent  {\footnotesize{Advisor Name: Rajesh Sundaresan \hfill Advisor Signature}}
+%
+%
+\blankpage
+
+\vspace*{\fill}
+\begin{center}
+\large\bf \textcopyright \ Karthik Periyapattana Narayanaprasad\\
+\large\bf \monthyeardate\today\\
+\large\bf All rights reserved
+\end{center}
+\vspace*{\fill}
+\thispagestyle{empty}
+
+\blankpage
+
+\vspace*{\fill}
+\begin{center}
+\large \it To my parents.
+%\large Dedicated to \\[2em]
+%\large \it The Lotus Feet of Gurudev\\[2em]
+\end{center}
+
+\vspace*{\fill}
+\thispagestyle{empty}
+
+\blankpage
+%\includepdf[pages={1}]{declaration.pdf}
+
+%\vspace*{\fill}
+%\begin{tabular}{p{0.4\columnwidth}p{0.5\columnwidth}}
+% {\em Signature of the Author}: & \dotfill \\
+% & Your Name \\
+% & Dept.\ of Computer Science and Automation \\ 
+% & Indian Institute of Science, Bangalore \vspace{1in}\\
+% {\em Signature of the Thesis Supervisor}: & \dotfill \\
+% & Your Advisor's Name \\
+% & Professor \\
+% & Dept.\ of Computer Science and Automation \\ 
+% & Indian Institute of Science, Bangalore
+%\end{tabular}
+%\vspace*{\fill}
+%\thispagestyle{empty}
+
+%\blankpage
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{3}
+
+\frontmatter % book mode only
+\pagenumbering{roman}
+
+
+% \include{Dedication/dedication}
+
+
+\prefacesection{Acknowledgements}
+\input{chapters/acknowledgments}
+
+\prefacesection{Abstract}
+\input{chapters/abstract}
+\blankpage
+\tableofcontents
+\blankpage
+\listoffigures
+%\ysnote{Verify that the figure captions are meaningful and self-contained when appearing in the TOC.}
+
+
+%\listoftables
+%\ysnote{table captions must be more descriptive. it is ambiguous when it appears on the TOC.}
+\blankpage
+\prefacesection{Publications Based on this Thesis}
+\input{chapters/publications}
+%\blankpagewithnumber
+% \printnomenclature  %% Print the nomenclature
+% \addcontentsline{toc}{chapter}{Nomenclature}
+
+\mainmatter % book mode only
+\setcounter{page}{1}
+
+\input{chapters/introduction}
+\blankpage
+\input{chapters/rested_arms}
+\blankpage
+\input{chapters/restless_arms_known_TPMs}
+\blankpage
+\input{chapters/restless_arms_unknown_TPMs}
+\blankpage
+\input{chapters/conclusions}
+
+
+% \backmatter % book mode only
+%\appendix
+%\include{Appendix/appendix}
+% \include{Appendix2/appendix2}
+
+%\bibliographystyle{plainnat}
+\bibliographystyle{ieeetr}
+%\bibliographystyle{Classes/CUEDbiblio}
+%\bibliographystyle{Classes/jmb}
+%\bibliographystyle{Classes/jmb} % bibliography style
+% \renewcommand{\bibname}{References} % changes default name Bibliography to References
+% \bibliography{References/references} % References file
+\bibliography{references}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
